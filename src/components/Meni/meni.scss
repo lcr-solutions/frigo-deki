@@ -1,0 +1,12 @@
+.meni {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  li {
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+  }
+}

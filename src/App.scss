@@ -1,0 +1,34 @@
+@import './colors.scss';
+@import 'components/Header/header.scss';
+@import 'components/Logo/logo.scss';
+@import 'components/Meni/meni.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  transition: all .4s;
+  &#home {
+    background-color: green;
+  }
+  &#proizvodi {
+    background-color: red;
+  }
+  &#odrzavanje {
+    background-color: blue;
+  } 
+  &#portfolio {
+    background-color: yellow;
+  }
+  &#about {
+    background-color: gray;
+  }
+}
