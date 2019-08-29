@@ -14,7 +14,8 @@ export default function Logo() {
       <img 
         className="logo-image"
         src="images/logo.jpg" 
-        alt=""></img>
+        alt="">
+      </img>
     </a>
   );
 }

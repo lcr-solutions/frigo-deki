@@ -8,5 +8,9 @@
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
+    a {
+      color: $black-text;
+      text-decoration: none;
+    }
   }
 }
