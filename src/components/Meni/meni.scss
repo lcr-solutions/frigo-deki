@@ -12,5 +12,58 @@
       color: $black-text;
       text-decoration: none;
     }
+  }  
+}
+
+.meni-mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 476px) {
+  .meni {
+    display: none;
+  }
+  .meni-mobile {
+    display: none;
+    &.show {
+      position: absolute;
+      display: flex;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: $primary-color;
+      flex-direction: column;
+      align-items: center;
+    }
+    .divider-line {
+      width: 90vw;
+      border-bottom: 2px solid $divider-line-color;
+    }
+    .close-menu {
+      height: 25px;
+      width: 25px;
+      left: 10px;
+      top: 10px;
+      position: absolute;
+    }
+    .meni-links-wrapper {  
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 50%;
+      padding-top: 30px;
+      li {
+        white-space: nowrap;
+        font-weight: 600;
+        list-style-type: none;
+        font-size: 24px;
+        a {
+          color: $white-text;
+          text-decoration: none;
+          padding-left: 5px; 
+        }
+      }
+    }
   }
 }

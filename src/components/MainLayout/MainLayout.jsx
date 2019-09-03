@@ -21,4 +21,4 @@ export default function MainLayout() {
       <div className="section" id="about"></div>
     </div>
   )
-}
+} 
